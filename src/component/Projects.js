@@ -39,7 +39,7 @@ const Projects = () => {
             id:3,
             projectIMG:spotLight,
             projectName: 'Spotlight',
-            projectDescription: 'Spotlight is a beautiful personal website built with Tailwind CSS and React.js, making it a best way to display information regarding your work experience and projets, using a switch to adjust the whole UI into dark or light mode, designed and built by GUOAN LIU.',
+            projectDescription: 'Spotlight is a beautiful personal website built with Tailwind CSS and React.js, making it a best way to display information regarding work experiences and projects, using a checkbox to switch modes, completely responsive',
             languages: ['TailwindCss', 'HTML5','React','Vercel','Next.js'], 
             website:null
         },
