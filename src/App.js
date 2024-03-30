@@ -16,7 +16,8 @@ export default function App() {
     setTheme(mode)
   }
   return (
-    <div className={classNames("mx-auto w-full lg:flex box-border px-24 max-w-screen-2xl min-w-[768px] bg-white dark:bg-slate-900",{"dark":theme==="dark"})}>
+    <div className={classNames(" w-full px-24 min-w-[768px] dark:bg-slate-900",{"dark":theme==="dark"})}>
+      <div className="max-w-screen-2xl lg:flex mx-auto ">
       <Head></Head>
       <div className="lg:flex-1"></div>
       <div className="lg:flex-1">
@@ -24,6 +25,7 @@ export default function App() {
           <CustomizedSwitches onGetMode={getMode} />
         </div>
         <SectionOtherThanHead/>
+      </div>
       </div>
     </div>
   )
