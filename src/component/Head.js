@@ -29,7 +29,7 @@ const Head = ()=>{
         title:'CONTACT'
     }]
     return (
-        <div className=" py-16 font-Inter dark:text-white lg:fixed lg:flex lg:flex-col lg:justify-between lg:h-screen lg:w-2/5 box-border lg:py-20">
+        <div className=" py-16 font-Inter dark:text-white lg:fixed lg:flex lg:flex-col lg:justify-between lg:h-screen lg:w-2/7 box-border lg:py-20">
         <div className=''>
         <div className=" mb-3 text-4xl font-bold lg:text-6xl lg:mb-9 uppercase">James Liu</div>
         <div className=" mb-3 text-md font-medium lg:text-3xl lg:mb-3">Software Engineer</div>
