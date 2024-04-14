@@ -1,5 +1,6 @@
 .ltrEffect {
-  background: linear-gradient(to right, rgb(59 130 246),rgb(59 130 246)) no-repeat right bottom;
+  background-repeat: no-repeat;
+  background-position: right bottom;
   background-size:0 2px;
   transition:background-size 0.3s;
   padding-bottom:5px;

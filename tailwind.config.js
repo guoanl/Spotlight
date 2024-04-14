@@ -18,7 +18,7 @@ module.exports = {
       },
       animation: {
         bouncex: 'bouncex 1.5s ease-in-out infinite',
-      }
+      },
     },
   },
   plugins: [],
