@@ -22,7 +22,7 @@ const Experience = () => {
             timeTo: 'CURRENT',
             position: 'SDE',
             companyName: 'Chongqing University',
-            jobDuty: 'Build, style, and ship high-quality websites, design systems, mobile apps, and cross-platform digital experiences for students and staff using technologies such as JavaScript, TypeScript, Vue.js, Tailwind CSS, and more. Involved in the development and architecture of technical tools like content management systems, REST APIs, and continuous integration pipelines to fulfill university’s business requirement',
+            jobDuty: 'Build, style, and ship high-quality websites, designed systems, mobile apps, and cross-platform digital experiences for students and staff using technologies such as JavaScript, TypeScript, Vue.js, Tailwind CSS, and more. Involved in the development and architecture of technical tools like content management systems, RESTful APIs, and continuous integration pipelines to fulfill university’s business requirement',
             languages: ['javascript', 'React','Typescript','Node.js','Firebase','Docker'], 
             website:'http://www.cqu.edu.cn'
         },
@@ -32,7 +32,7 @@ const Experience = () => {
             timeTo: 'MAY 2021',
             position: 'Intern Software Engineer',
             companyName: 'Panda PTE',
-            jobDuty: 'Developed, maintained, and shipped production code for client websites primarily using HTML, CSS, Sass, JavaScript, and jQuery, Performed quality assurance tests on various sites to ensure cross browser compatibility and mobile responsiveness, Engineered and improved major features of PTE online practice applications using ES6, Python, Sortablejs, Anime.js, and Node.js',
+            jobDuty: 'Developed, maintained, and shipped production code for clients websites primarily using HTML, CSS, Sass, JavaScript, and jQuery, Performed quality assurance tests on various sites to ensure cross browser compatibility and mobile responsiveness, Engineered and improved major features of PTE online practice applications by using ES6, Python, Sortablejs, Anime.js, and Node.js',
             languages: ['javascript','Jquery','HTML5','MongoDB'],
             website:null
         },

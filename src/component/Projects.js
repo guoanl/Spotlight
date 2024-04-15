@@ -23,7 +23,7 @@ const Projects = () => {
             id:1,
             projectIMG:cqu,
             projectName: 'Bishan Research Institute CMS',
-            projectDescription: 'Customized comprehensive management system for Chongqing University Bishan Institute of Advanced Technology, based on Vue.js and MongoDB, providing registration, login, meeting booking, personal information management, consulting release and other functions.',
+            projectDescription: 'Customized comprehensive management system for Chongqing University Bishan Institute of Advanced Technology, based on Vue.js and MongoDB, providing registration, login, meeting, booking, personal information management, consulting and other functions.',
             languages: ['Vue.js', 'MongoDB','CI/CD','CMS','Saas','Typescript'], 
             website:null
         },
@@ -31,7 +31,7 @@ const Projects = () => {
             id:2,
             projectIMG:gitConsle,
             projectName: 'Git-console',
-            projectDescription: 'Github Console is a component that emulates the github code styl presenting some basic information of a developer or designer, which can be embedded in any part of the web page',
+            projectDescription: 'Github Console is a component that emulates the github code style, presenting some basic information of profession, which can be embedded in any part of the web page',
             languages: ['TailwindCss', 'HTML5','Jquery'], 
             website:'https://guoanl.github.io/Git-console/Git-console/src/index.html'
         },
@@ -39,7 +39,7 @@ const Projects = () => {
             id:3,
             projectIMG:spotLight,
             projectName: 'Spotlight',
-            projectDescription: 'Spotlight is a beautiful personal website built with Tailwind CSS and React.js, making it a best way to display information regarding work experiences and projects, using a checkbox to switch modes, completely responsive',
+            projectDescription: 'Spotlight is a beautiful personal website built with Tailwind CSS and React.js, making it a best way to display information regarding work experiences and projects, using a checkbox to switch modes in perfect responsiveness',
             languages: ['TailwindCss', 'HTML5','React','Vercel','Next.js'], 
             website:null
         },
@@ -56,7 +56,6 @@ const Projects = () => {
                             <div className="lg:w-0 lg:grow-[2] font-semibold text-sm mb-2 hidden lg:flex lg:items-start py-1 px-3 lg:justify-center">
                                 <img src={item.projectIMG} className='w-3/4 rounded-lg'></img>
                             </div>
-
                             <div className="lg:w-0 lg:grow-[3]">
                             <div className={classNames("mb-3 font-semibold text-sm duration-700",{'dark:text-teal-500 text-blue-500 lg:translate-x-1 lg:-translate-y-1':positionStatus===item.id})}>
                                 {item.projectName} <CallMadeIcon sx={{ fontSize: 16 }}/>
