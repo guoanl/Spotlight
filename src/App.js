@@ -16,7 +16,8 @@ export default function App() {
     setTheme(mode)
   }
   return (
-    <div className={classNames(" w-full px-24 min-w-[768px] bg-[#f8fafc] dark:bg-slate-900 bg-[url('assets/images/beams-pricing.png')] dark:bg-none bg-repeat-x bg-contain ",{"dark":theme==="dark"})}>
+    <div className={classNames("relative w-full px-24 min-w-[768px]  dark:bg-slate-900",{"dark":theme==="dark"})}>
+      <div className="absolute left-0 top-0 w-full h-screen bg-gradient-to-b from-cyan-100 via-purple-100 to-white bg-no-repeat bg-right-top -z-10 opacity-40 blur-xl"></div>
       <div className="max-w-screen-2xl lg:flex mx-auto ">
       <Head></Head>
       <div className="lg:flex-1"></div>
