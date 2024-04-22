@@ -6,7 +6,9 @@ import EastTwoToneIcon from '@mui/icons-material/EastTwoTone';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import classNames from 'classnames';
 import { useState } from 'react';
+import { useNavigate } from "react-router-dom"
 const Head = ()=>{
+    const navigate = useNavigate();
     const [headMenu,setHeadMenu] = useState('')
     const handleHeadMenu = (id)=>{
         setHeadMenu(id)
@@ -38,6 +40,7 @@ const Head = ()=>{
         {headList.map(item=>{return(
            <a href={`#${item.title}`} key={item.id} className='w-1/3'> <li onClick={()=>handleHeadMenu(item.id)} className={classNames(' hover:text-blue-500 dark:hover:text-teal-300 hover:translate-x-3 transition duration-300 py-2 cursor-pointer',{'text-blue-500 dark:text-teal-300 translate-x-3':headMenu===item.id})}><EastTwoToneIcon sx={handleMenuIcon(item.id)}/> {item.title}</li></a>
         )})}
+           <a className='w-1/3' onClick={()=>navigate('/library')} ><li className={classNames('hover:text-blue-500 dark:hover:text-teal-300 hover:translate-x-3 transition duration-300 py-2 cursor-pointer dark:text-white')}>LIBRARY</li></a>
         </ul>
         </div>
         <div className='w-1/2 flex justify-start'>

@@ -1,0 +1,14 @@
+#shadowWords {
+    font-size:12rem;
+    font-weight: bolder;
+    color:black;
+}
+#shadowWords::before{
+    content: "JAMES";
+    position: absolute;
+    transform: translate(-87px,35px) scaleY(0.5) skew(50deg);
+     z-index: -1;
+    color:black;
+    filter:blur(5px);
+    -webkit-mask-image:linear-gradient(transparent, #000)
+}
