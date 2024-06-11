@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import cqu from '../assets/images/cqu.png'
 import gitConsle from '../assets/images/git-console.png'
 import spotLight from '../assets/images/spotlight.png'
+import foodDelivery from '../assets/images/foodDelivery.png'
 import { useState } from 'react';
 const Projects = () => {
     const [positionStatus,setPositionStatus] = useState('')
@@ -42,6 +43,14 @@ const Projects = () => {
             projectDescription: 'Spotlight is a beautiful personal website built with Tailwind CSS and React.js, making it a best way to display information regarding work experiences and projects, using a checkbox to switch modes in perfect responsiveness',
             languages: ['TailwindCss', 'HTML5','React','Vercel','Next.js'], 
             website:null
+        },        
+        {
+            id:4,
+            projectIMG:foodDelivery,
+            projectName: 'Food-Delivery system',
+            projectDescription: 'A tiny system for calculating delivered food and generating receipts',
+            languages: ['Material UI', 'React CRA','Redux','DaisyUI'], 
+            website:"https://food-delivery-two-chi.vercel.app/"
         },
     ]
     return (
